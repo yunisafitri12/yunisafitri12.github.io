@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;300;400;600;700&family=Quicksa');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+
+
+/*css brand logo dan nama*/
+.brand span{
+margin-left: 0;
+font-family: "poppins", sans-serif;
+font-weight: 500;
+font-size:30px;
+color: #edf0f1;
+text-decoration: none;
+}
+.brand li,a,button{
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: navy;
+}
+.brand{
+    list-style: none;
+}
+
+.brand li{
+    display: inline-block;
+    padding: 5px;
+}
+.brand span{
+    margin-right: 250px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.brand li a:hover{
+    color:orange
+}
+
+.brand input[type=search]{
+    border-radius: 15px;
+    padding: 9px 10px;
+}
+
+.brand button{
+    padding: 9px 10px;
+    background-color: rgba(0,136.169,1,);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
+}
+
+.brand button:hover{
+    background-color: rgba(0,136.169,0,8);
+} 
+
+/*jumbotron*/
+.jumbotron{
+    height: 520px;
+    margin-top: 0px;
+    font-family: "poppins" sans-serif;
+    background-image: url('Pulau\ kelapa.jpg');
+    background-size: cover;
+    background: position y -100px;
+}
+
+.jumbotron:hover{
+    background-image: url('Pulau\ kelapa.jpg');
+}
+
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color: #edf0f1;
+}
+
+.text-brand h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.text-brand p{
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 1px 1px;
+    color: white;
+}
+
+.btn-jelajahi{
+    width: 200px;
+    height: 50px;
+    background-color: #54E346;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-jelajahi :hover{
+    background-color: #fff338;
+}
+
+.btn-jelajahi a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px navy;
+}
+
+.btn-video{
+    width: 200px;
+    height: 50px;
+    background-color: #fff338;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-video :hover{
+    background-color: #54E346;
+}
+
+.btn-video a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*Konten Objek Wisata*/
+.objekwisata{
+    margin: 5px;
+    padding: 10px;
+    background-color: paleturquoise;
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid black;
+}
+
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.gambar .title{
+    text-align: center;
+    font-size: 15px;
+}
+
+.objekwisata .isian h1{
+    font-size: 35px;
+    text-align: justify;
+}
+
+.objekwisata .isian p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.objekwisata .isian .baca{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+
+.link .img{
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    text-shadow: 1px 1px 3px red;
+}
+
+/*sarana Akomodasi*/
+.kolom{
+    margin: 5px;
+    padding: 10px;
+    background-color: paleturquoise;
+    column-count: 3;
+     -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-gap: 20px;
+      -moz-column-gap: 20px;
+      -webkit-column-gap: 20px;
+      border: 1px solid #ccc;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+.price{
+    color: navy;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: white;
+    background-color: navy;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    font-size: 18px;
+}
+
+.card button :hover{
+    opacity: 0.7;
+} 
+
+/*kontak pesan*/
+.kontak-pesan{
+    margin: 5px;
+    padding: 10px;
+    background-color: paleturquoise;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border: 1px solid #ccc;
+}
+.form{
+    position: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: powderblue;
+    width: 600px;
+    height: 400px;
+}
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 100px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+
+/*footer*/
+footer{
+    margin: 0px;
+    padding: 10px;
+    background-color: navy;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    border: 1px solid #ccc;
+}
+footer p{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+footer
+
+
